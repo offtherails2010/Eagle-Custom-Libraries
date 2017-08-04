@@ -975,13 +975,13 @@ reflow soldering</description>
 <text x="-2.54" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <pad name="1" x="0" y="3.5" drill="0.8" shape="long"/>
 <pad name="2" x="0" y="-3.5" drill="0.8" shape="long"/>
-<wire x1="-1.24" y1="3" x2="1.24" y2="3" width="0.127" layer="49"/>
+<wire x1="-1.24" y1="3" x2="1.24" y2="3" width="0.127" layer="21"/>
 <wire x1="1.24" y1="3" x2="1.24" y2="-3" width="0.127" layer="21"/>
-<wire x1="1.24" y1="-3" x2="-1.24" y2="-3" width="0.127" layer="49"/>
+<wire x1="1.24" y1="-3" x2="-1.24" y2="-3" width="0.127" layer="21"/>
 <wire x1="-1.24" y1="-3" x2="-1.24" y2="3" width="0.127" layer="21"/>
-<wire x1="0" y1="1.27" x2="0" y2="0.508" width="0.2032" layer="49"/>
-<wire x1="0" y1="-0.508" x2="0" y2="-1.27" width="0.2032" layer="49"/>
-<wire x1="0" y1="0.508" x2="0.381" y2="-0.381" width="0.2032" layer="49"/>
+<wire x1="0" y1="1.27" x2="0" y2="0.508" width="0.2032" layer="51"/>
+<wire x1="0" y1="-0.508" x2="0" y2="-1.27" width="0.2032" layer="51"/>
+<wire x1="0" y1="0.508" x2="0.381" y2="-0.381" width="0.2032" layer="51"/>
 <text x="3.81" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
 <package name="MTSTHUMB">
@@ -7996,21 +7996,21 @@ GND
 <pad name="P$1@U$2" x="-20.99" y="21.99" drill="2" diameter="2.2"/>
 <pad name="P$1@U$3" x="18.99" y="21.99" drill="2" diameter="2.2"/>
 <pad name="P$1@U$4" x="18.99" y="-17.99" drill="2" diameter="2.2"/>
-<wire x1="-23" y1="-20" x2="21" y2="-20" width="0" layer="21"/>
-<wire x1="21" y1="-20" x2="21" y2="25" width="0" layer="21"/>
-<wire x1="21" y1="25" x2="-23" y2="25" width="0" layer="21"/>
-<wire x1="-23" y1="25" x2="-23" y2="-20" width="0" layer="21"/>
-<text x="-10.8" y="-16.6" size="1.778" layer="49" font="vector" rot="MR90">RESET</text>
-<text x="-8.3" y="-16.6" size="1.778" layer="49" font="vector" rot="MR90">CE</text>
-<text x="-5.7" y="-16.6" size="1.778" layer="49" font="vector" rot="MR90">DC</text>
-<text x="-3.2" y="-16.6" size="1.778" layer="49" font="vector" rot="MR90">DIN</text>
-<text x="-0.6" y="-16.6" size="1.778" layer="49" font="vector" rot="MR90">CLK</text>
-<text x="1.9" y="-16.6" size="1.778" layer="49" font="vector" rot="MR90">VCC</text>
-<text x="4.5" y="-16.6" size="1.778" layer="49" font="vector" rot="MR90">LED</text>
-<text x="7" y="-16.6" size="1.778" layer="49" font="vector" rot="MR90">GND</text>
-<text x="9.9" y="-19.4" size="1.6764" layer="21" font="vector" ratio="12">8</text>
-<text x="-12.9" y="-19.4" size="1.6764" layer="21" font="vector" ratio="12">1</text>
-<text x="15.7" y="-8.75" size="1.778" layer="49" font="vector" ratio="12" rot="MR0">5 VOLTS INPUT (LOGIC)</text>
+<wire x1="-23" y1="-20" x2="21" y2="-20" width="0" layer="20"/>
+<wire x1="21" y1="-20" x2="21" y2="25" width="0" layer="20"/>
+<wire x1="21" y1="25" x2="-23" y2="25" width="0" layer="20"/>
+<wire x1="-23" y1="25" x2="-23" y2="-20" width="0" layer="20"/>
+<text x="-10.8" y="-16.6" size="1.778" layer="22" font="vector" rot="MR90">RESET</text>
+<text x="-8.3" y="-16.6" size="1.778" layer="22" font="vector" rot="MR90">CE</text>
+<text x="-5.7" y="-16.6" size="1.778" layer="22" font="vector" rot="MR90">DC</text>
+<text x="-3.2" y="-16.6" size="1.778" layer="22" font="vector" rot="MR90">DIN</text>
+<text x="-0.6" y="-16.6" size="1.778" layer="22" font="vector" rot="MR90">CLK</text>
+<text x="1.9" y="-16.6" size="1.778" layer="22" font="vector" rot="MR90">VCC</text>
+<text x="4.5" y="-16.6" size="1.778" layer="22" font="vector" rot="MR90">LED</text>
+<text x="7" y="-16.6" size="1.778" layer="22" font="vector" rot="MR90">GND</text>
+<text x="9.6" y="-19.4" size="1.6764" layer="21" font="vector" ratio="12">8</text>
+<text x="-12.6" y="-19.4" size="1.6764" layer="21" font="vector" ratio="12">1</text>
+<text x="15.7" y="-8.75" size="1.778" layer="22" font="vector" ratio="12" rot="MR0">5 VOLTS INPUT (LOGIC)</text>
 </package>
 <package name="CEG8205A">
 <wire x1="-2.11" y1="-1.4" x2="2.11" y2="-1.4" width="0.2032" layer="21"/>

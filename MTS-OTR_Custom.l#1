@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -8008,8 +8008,8 @@ GND
 <text x="1.9" y="-16.6" size="1.778" layer="49" font="vector" rot="MR90">VCC</text>
 <text x="4.5" y="-16.6" size="1.778" layer="49" font="vector" rot="MR90">LED</text>
 <text x="7" y="-16.6" size="1.778" layer="49" font="vector" rot="MR90">GND</text>
-<text x="9.9" y="-19.4" size="1.6764" layer="21" font="vector" ratio="12">8</text>
-<text x="-12.9" y="-19.4" size="1.6764" layer="21" font="vector" ratio="12">1</text>
+<text x="9.6" y="-19.4" size="1.6764" layer="21" font="vector" ratio="12">8</text>
+<text x="-12.6" y="-19.4" size="1.6764" layer="21" font="vector" ratio="12">1</text>
 <text x="15.7" y="-8.75" size="1.778" layer="49" font="vector" ratio="12" rot="MR0">5 VOLTS INPUT (LOGIC)</text>
 </package>
 <package name="CEG8205A">
